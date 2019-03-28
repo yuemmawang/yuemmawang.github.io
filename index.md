@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Yu (Emma) Wang
 
-You can use the [editor on GitHub](https://github.com/yuemmawang/yuemmawang.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I’m a Ph.D candidate working on full-stack benchmarking of machine learning workloads. Benchmarking is crucial to understand workload characteristics, reveal computational bottlenecks, and provide optimization opportunities. I have been working on deep learning and Bayesian inference workloads, by benchmarking them on real systems including CPU, GPU, TPU, highlighting the system bottlenecks, and providing insights on future machine learning system design. I also research on the performance impact of software stacks including frameworks, compilers, runtime scheduling, and machine learning libraries. I received my B.S in Computer Science from Shanghai Jiao Tong University in 2013. In my spare time, I’m broadly interested in statistics, cognitive science, psychology, photography, music, and literature.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Education
 
-### Markdown
+Harvard University, Cambridge, MA
+Ph.D. Candidate in Computer Science
+Advisors: Prof. David Brooks and Prof. Gu-Yeon Wei
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Shanghai Jiao Tong University, Shanghai, China
+B.S. in Computer Science and Engineering
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Publications ([Google Scholar](https://scholar.google.com/citations?user=cIt4my0AAAAJ&hl=en)
 
-- Bulleted
-- List
+Yu Wang, Yuhao Zhu, Glenn G. Ko, Brandon Reagen, Gu-Yeon Wei, and David Brooks. “Demystifying Bayesian Inference Workloads.” International Symposium on Performance Analysis of Systems and Software (ISPASS), 2019.
 
-1. Numbered
-2. List
+Yu Wang, Victor Lee, Gu-Yeon Wei, and David Brooks. “Predicting New Workload or CPU Perfor- mance by Analyzing Public Datasets.” ACM Transactions on Architecture and Code Optimization (TACO). vol. 15, no. 4 (2019): 53:1–53:21.
 
-**Bold** and _Italic_ and `Code` text
+Yu Wang, Weikang Qian, Shuchang Zhang, Xiaoyao Liang, and Bo Yuan. “A Learning Algorithm for Bayesian Networks and Its Efficient Implementation on GPUs.” IEEE Transactions on Parallel and Distributed Systems. vol. 27, no. 1 (2016): 17–30.
 
-[Link](url) and ![Image](src)
-```
+Weichao Tang, Yu Wang, Haopeng Liu, Tao Zhang, Chao Li, and Xiaoyao Liang. “Exploring Hard- ware Profile-Guided Green Datacenter Scheduling.” International Conference on Parallel Processing (ICPP), pp. 11-20. 2015.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yuemmawang/yuemmawang.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
