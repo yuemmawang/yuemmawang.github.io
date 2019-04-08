@@ -1,9 +1,74 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
+
 <head>
-<title>Yu (Emma) Wang</title>
+  <title>Yu Emma Wang</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
 </head>
+
 <body>
-I’m a Ph.D candidate working on full-stack benchmarking of machine learning workloads. Benchmarking is crucial to understand workload characteristics, reveal computational bottlenecks, and provide optimization opportunities. I have been working on deep learning and Bayesian inference workloads, by benchmarking them on real systems including CPU, GPU, TPU, highlighting the system bottlenecks, and providing insights on future machine learning system design. I also research on the performance impact of software stacks including frameworks, compilers, runtime scheduling, and machine learning libraries. I received my B.S in Computer Science from Shanghai Jiao Tong University in 2013. In my spare time, I’m broadly interested in statistics, cognitive science, psychology, photography, music, and literature.
+  <div id="main">
+    <header>
+      <div id="logo"><h1>EMMA<a href="#">WANG</a></h1></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li class="current"><a href="index.html">Home</a></li>
+<!--          <li><a href="projects.html">Projects</a></li> -->
+          <li><a href="Emma-CV.pdf">CV</a></li>
+          <li><a href="publications.html">Publications</a></li>
+<!--          <li><a href="blog.html">Love, Food and Life</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="gallery">
+          <ul class="images">
+            <li class="show"><img width="450" height="450" src="images/1.jpg" alt="photo_one" /></li>
+           <!--  <li><img width="450" height="450" src="images/2.jpg" alt="photo_two" /></li> -->
+           <!--  <li><img width="450" height="450" src="images/3.jpg" alt="photo_three" /></li> -->
+          </ul>
+        </div>
+      </div>
+
+      <div id="content">
+          <h1> About Me </h1>
+          <p>I’m a Ph.D candidate at Harvard University. My advisors are Prof. <a href="http://www.eecs.harvard.edu/~dbrooks/">David Brooks</a>
+and Prof. <a href="http://www.seas.harvard.edu/directory/guyeon">Gu-Yeon Wei</a>. My research focuses
+on full-stack system design for machine learning workloads, from hardware platforms, to software
+stacks and applications. I approach the optimal design by benchmarking existing systems.
+Benchmarking is crucial to understand workload characteristics, reveal computational
+bottlenecks, and provide optimization opportunities.
+I have been working on deep learning and Bayesian inference
+workloads, by benchmarking them on real systems including CPU, GPU, TPU, highlighting the system bottlenecks,
+and providing insights on future machine learning system design. I also research on the performance impact of
+software stacks including frameworks, compilers, runtime scheduling, and machine learning libraries. I received
+my B.S in Computer Science from Shanghai Jiao Tong University in 2013. In my spare time, I’m broadly interested
+in statistics, cognitive science, psychology, photography, music, and literature.
+          </p>
+          <h1> E-mail </h1>
+          <p> (@ ywang03 (. g harvard edu)) </p>
+      </div>
+    </div>
+
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
 </body>
 </html>
