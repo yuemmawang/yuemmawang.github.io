@@ -21,15 +21,16 @@
 					<section class="banner style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
 							<h1>Yu (Emma) Wang</h1>
-              <p class="major"> I am a Ph.D candidate at Harvard University with
+              <p class="major"> I will join <a href='https://ai.google/research/teams/brain/'>Google
+Brain</a> this coming November. I obtained my Ph.D from Harvard University with
                 the <a href="http://vlsiarch.eecs.harvard.edu/">Harvard Architecture, Circuits, and Compiler
-                Group</a>. My advisors are
+                Group</a> in 2019. My advisors are
                 Prof. <a href="http://www.eecs.harvard.edu/~dbrooks/">David Brooks</a>
-                and Prof. <a href="http://www.seas.harvard.edu/directory/guyeon">Gu-Yeon Wei</a>. 
-                My research focuses on full-stack benchmarking for machine learning workloads, from hardware
-                platforms, to software stacks and applications, such that current system design can be improved.
+                and Prof. <a href="http://www.seas.harvard.edu/directory/guyeon">Gu-Yeon Wei</a>.
+                My research is about deep and systematic performance analysis for a variety of
+                workloads, software frameworks, and hardware systems, with a focus on machine
+                learning applications.
                 I received my Bachelor of Science degree in Computer Science from Shanghai Jiao Tong University in 2013.
-                I will join Google Brain in late 2019.
           </p>
           <p> Email: (@ ywang03 (. g harvard edu)) </p>
           <p> <a href='Emma-CV.pdf'> My CV </a> </p>
@@ -45,14 +46,25 @@
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
 							<h2>My Research</h2>
-                <p> My PhD research is about full-stack system benchmarking for machine learning workloads, from hardware platforms, to software
-                    stacks and applications. 
-                    Benchmarking is crucial to understand workload characteristics, reveal computational
-                    bottlenecks, and provide optimization opportunities.
-                    I have been working on <b> deep learning </b> and <b> Bayesian inference </b>
-                    workloads, by benchmarking them on real systems including CPU, GPU, TPU, highlighting the system bottlenecks,
-                    and providing insights on future machine learning system design. I also research on the performance impact of
-                    software stacks including frameworks, compilers, runtime scheduling, and machine learning libraries.
+                <p> My PhD research focuses on performance analysis for machine learning
+                    applications, including <b> deep learning </b> and <b> Bayesian inference </b>.
+                    Proper performance analysis can reveal system and architectural bottlenecks,
+                    provide essential information for choosing frameworks and platforms, and lead to performance optimizations.
+                </p>          
+
+                <p>  For <b> deep learning </b>, I extracted the performance implications of key
+design features from deep learning frameworks (such as TensorFlow and Caffe2).
+ For more details please refer to <a href='http://arxiv.org/abs/1908.04705'>this paper</a>.
+                    I also proposed a systematic analysis methodology that can reveal deeper
+insights that are difficult to discover for traditional approaches. For more details please refer to
+<a href='https://arxiv.org/abs/1907.10701'>this paper</a>. <a
+href='https://github.com/Emma926/paradnn'>ParaDnn</a>, a tool for this
+methodology, is available to use for other deep learning platforms. 
+                </p>          
+
+                 <p> <b> Bayesian inference </b> is an important branch of machine learning. However its
+computational characteristics are less studied in the community. I proposed <a href='http://github.com/Emma926/BayesSuite'>BayesSuite</a> to
+facilitate the research of such applications. Please refer to <a href='publications/wang-ispass2019.pdf'>this paper</a> for more details.
                 </p>          
 						</div>
 						<div class="image">
@@ -152,7 +164,7 @@
 										</header>
 										<div class="content">
 											<ul>
-												<li>Conducted full-stack benchmarking of machine learning workloads and extracted architectural insights to optimize those workloads.</li>
+												<li>Conducted deep and systematic performance analysis for machine learning workloads and extracted architectural insights to optimize those workloads.</li>
                         <li>(See Publications for more of my PhD work.)</li>
 											</ul>
 										</div>
@@ -261,6 +273,12 @@
 							<h2>Open-Source Software</h2>
               <p> Feel free to download our software and use in your project. If you do, please cite our corresponding papers. </p>
 							<div class="items style1 medium onscroll-fade-in">
+								<section>
+									<span class="icon style2 major fa-cog"></span>
+									<h3>ParaDnn</h3>
+                  <p> <a href="https://github.com/Emma926/paradnn">ParaDnn</a> is a tool that
+enables systematic performance analysis for deep learning platforms. </p>
+								</section>
 								<section>
 									<span class="icon style2 major fa-bar-chart"></span>
 									<h3>BayesSuite</h3>
