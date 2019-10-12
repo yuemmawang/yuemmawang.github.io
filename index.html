@@ -11,6 +11,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style type="text/css">
+      .fa-download, .fa-github { padding-right: 0.3em }
+    </style>
 	</head>
 	<body class="is-preload">
 
@@ -33,8 +36,8 @@ Brain</a> this coming November. I obtained my Ph.D from Harvard University with
                 I received my Bachelor of Science degree in Computer Science from Shanghai Jiao Tong University in 2013.
           </p>
           <p> Email: (@ ywang03 (. g harvard edu)) </p>
-          <p> <a href='Emma-CV.pdf'> My CV </a> </p>
-          <p> <a href='https://scholar.google.com/citations?user=cIt4my0AAAAJ&hl=en'> My Google Scholar Profile </a> </p>
+          <p> <a href='Emma-CV.pdf' class='button default'> My CV </a> </p>
+          <p> <a href='https://scholar.google.com/citations?user=cIt4my0AAAAJ&hl=en' class='button default'> Google Scholar Profile </a> </p>
           <p> (Emma reserves the copyright of all the photos on this website.) </p>
 						</div>
 						<div class="image">
@@ -73,43 +76,86 @@ facilitate the research of such applications. Please refer to <a href='publicati
 					</section>
 
 				<!-- Three -->
-					<section class="wrapper style1 align-center">
+					<section class="wrapper style1 align-left">
 						<div class="inner">
 							<h2>Publications</h2>
-                <p> <b>Yu Emma Wang</b>, Carole-Jean Wu, Xiaodong Wang, Kim Hazelwood, David Brooks, 
+								<p> 
+                <a href="http://arxiv.org/abs/1908.04705" class="icon style1 fa-download"></a>
+								<a href="https://github.com/Emma926/paradnn" class="icon style1 fa-github"></a>
+                <b>Yu Emma Wang</b>, Carole-Jean Wu, Xiaodong Wang, Kim Hazelwood, David Brooks, 
                     "Exploiting Parallelism Opportunities with Deep Learning Frameworks." 
                     arXiv preprint arXiv:1908.04705 (2019).
-                <a href = http://arxiv.org/abs/1908.04705> PDF </a>   
                 </p>
 
-                <p> <b>Yu Emma Wang</b>, Gu-Yeon Wei, David Brooks, "Benchmarking TPU, GPU and CPU
+                <p> 
+								<a href="http://arxiv.org/abs/1907.10701" class="icon style1 fa-download"></a>
+								<a href="http://github.com/Emma926/mcbench" class="icon style1 fa-github"></a>
+                    <b>Yu Emma Wang</b>, Gu-Yeon Wei, David Brooks, "Benchmarking TPU, GPU and CPU
                     for Deep Learning." arXiv preprint arXiv:1907.10701 (2019).
-                <a href = https://arxiv.org/abs/1907.10701> PDF </a>   
                 </p>
 
-                <p> <b>Yu Emma Wang</b>, Yuhao Zhu, Glenn G. Ko, Brandon Reagen, Gu-Yeon Wei, and
+                <p> 
+								<a href="publications/wang-ispass2019.pdf" class="icon style1 fa-download"></a>
+								<a href="http://github.com/Emma926/BayesSuite" class="icon style1 fa-github"></a>
+                    <b>Yu Emma Wang</b>, Yuhao Zhu, Glenn G. Ko, Brandon Reagen, Gu-Yeon Wei, and
                     David Brooks. "Demystifying Bayesian Inference Workloads." IEEE International
                     Symposium on Performance Analysis of Systems and Software (ISPASS), pp. 177-189. IEEE, 2019.
-                <a href = publications/wang-ispass2019.pdf> PDF </a>   <a href =http://github.com/Emma926/BayesSuite> BayesSuite </a>
                 </p>
 
-          <p> <b>Yu Emma Wang</b>, Victor Lee, Gu-Yeon Wei, and David Brooks. "Predicting New
+          <p> 
+              <a href = publications/wang-taco2019.pdf class="icon style1 fa-download"></a>
+								<a href="https://github.com/Emma926/cpu_selection" class="icon style1 fa-github"></a>
+              <b>Yu Emma Wang</b>, Victor Lee, Gu-Yeon Wei, and David Brooks. "Predicting New
               Workload or CPU Performance by Analyzing Public Datasets." ACM Transactions on
               Architecture and Code Optimization (TACO). vol. 15, no. 4 (2019): 53:1–53:21.
-              <a href = publications/wang-taco2019.pdf> PDF </a>
           </p>
 
-          <p> <b>Yu Emma Wang</b>, Weikang Qian, Shuchang Zhang, Xiaoyao Liang, and Bo Yuan. "A
+          <p> <a href = publications/wang-tpds2016.pdf class="icon style1 fa-download"></a>
+								<a href="http://github.com/Emma926/BN-GPU" class="icon style1 fa-github"></a>
+              <b>Yu Emma Wang</b>, Weikang Qian, Shuchang Zhang, Xiaoyao Liang, and Bo Yuan. "A
               Learning Algorithm for Bayesian Networks and Its Efficient Implementation on GPU," IEEE Transactions
               on Parallel and Distributed Systems. vol. 27, no. 1 (2016): 17–30.
-              <a href = publications/wang-tpds2016.pdf> PDF </a>
           </p>
      
-          <p> Weichao Tang, <b>Yu Emma Wang</b>, Haopeng Liu, Tao Zhang, Chao Li, and Xiaoyao
+          <p> 
+              <a href = publications/tang-icpp2015.pdf class="icon style1 fa-download"></a>
+              Weichao Tang, <b>Yu Emma Wang</b>, Haopeng Liu, Tao Zhang, Chao Li, and Xiaoyao
               Liang. "Exploring Hardware Profile-Guided Green Datacenter Scheduling."
               International Conference on Parallel Processing (ICPP), pp. 11-20. 2015.
-              <a href = publications/tang-icpp2015.pdf> PDF </a>
           </p>
+					</section>
+
+				<!-- Six -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Open-Source Software</h2>
+              <p> Feel free to download our software and use in your project. If you do, please cite our corresponding papers. </p>
+							<div class="items style1 medium onscroll-fade-in">
+								<section>
+									<a href="https://github.com/Emma926/paradnn"><span class="icon style2 major fa-bar-chart"></span></a>
+									<h3><a href="https://github.com/Emma926/paradnn">ParaDnn</a></h3>
+                  <p> <a href="https://github.com/Emma926/paradnn">ParaDnn</a> is a tool that
+enables systematic performance analysis for deep learning platforms. </p>
+								</section>
+								<section>
+									<a href="https://github.com/Emma926/mcbench"><span class="icon style2 major fa-bolt"></span></a>
+									<h3><a href="https://github.com/Emma926/mcbench">Mille Crepe Bench</a></h3>
+                  <p> <a href="https://github.com/Emma926/mcbench">Mille Crepe Bench</a> is a
+multi-layer performance analysis tool for deep learning frameworks. </p>
+								</section>
+								<section>
+									<a href="https://github.com/Emma926/BayesSuite"><span class="icon style2 major fa-leaf"></span></a>
+									<h3><a href="https://github.com/Emma926/BayesSuite">BayesSuite</a></h3>
+                  <p> <a href="https://github.com/Emma926/BayesSuite">BayesSuite</a> is a Bayesian inference benchmark suite based on Stan. </p>
+								</section>
+								<section>
+									<a href="https://github.com/Emma926/BN-GPU"><span class="icon style2 major fa-paper-plane"></span></a>
+									<h3><a href="https://github.com/Emma926/BN-GPU">BN-GPU</a></h3>
+                  <p> <a href="https://github.com/Emma926/BN-GPU">BN-GPU</a> is a GPU implementation
+                      of a Bayesian network learning algorithm. </p>
+								</section>
+							</div>
+						</div>
 					</section>
 
 				<!-- Four -->
@@ -266,33 +312,6 @@ facilitate the research of such applications. Please refer to <a href='publicati
               </div>
 				</section>
 
-
-				<!-- Six -->
-					<section class="wrapper style1 align-center">
-						<div class="inner">
-							<h2>Open-Source Software</h2>
-              <p> Feel free to download our software and use in your project. If you do, please cite our corresponding papers. </p>
-							<div class="items style1 medium onscroll-fade-in">
-								<section>
-									<span class="icon style2 major fa-cog"></span>
-									<h3>ParaDnn</h3>
-                  <p> <a href="https://github.com/Emma926/paradnn">ParaDnn</a> is a tool that
-enables systematic performance analysis for deep learning platforms. </p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-bar-chart"></span>
-									<h3>BayesSuite</h3>
-                  <p> <a href="https://github.com/Emma926/BayesSuite">BayesSuite</a> is a Bayesian inference benchmark suite based on Stan. </p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-paper-plane"></span>
-									<h3>BN-GPU</h3>
-                  <p> <a href="https://github.com/Emma926/BN-GPU">BN-GPU</a> is a GPU implementation
-                      of a Bayesian network learning algorithm. </p>
-								</section>
-							</div>
-						</div>
-					</section>
 
 				<!-- Five -->
 					<section class="wrapper style1 align-center">
