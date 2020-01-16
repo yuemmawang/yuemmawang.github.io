@@ -348,6 +348,8 @@ input, select, textarea {
 		border-bottom-color: rgba(0, 0, 0, 0.2);
 	}
 
+.tab { margin-left: 40px; }
+
 /* Row */
 
 	.row {
