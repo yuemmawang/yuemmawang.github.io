@@ -24,16 +24,14 @@
 					<section class="banner style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
 							<h1>Yu (Emma) Wang</h1>
-              <p class="major"> I am a staff software engineer at Google. I work on analyzing and optimizing the
-                performance of Machine Learning workloads, especially large models.
+              <p class="major"> I am a Staff Software Engineer at Google DeepMind. I specialized in serving
+system design and optimization for large models. I lead the Multimodal Serving team that optimized
+Veo serving performance by 5x. I led my previous team that optimized Gemini serving performance by up to 2.5x.
                 I obtained my Ph.D from Harvard University with
                 the <a href="http://vlsiarch.eecs.harvard.edu/">Harvard Architecture, Circuits, and Compiler
                 Group</a> in 2019. My advisors are
                 Prof. <a href="http://www.eecs.harvard.edu/~dbrooks/">David Brooks</a>
                 and Prof. <a href="http://www.seas.harvard.edu/directory/guyeon">Gu-Yeon Wei</a>.
-                My dissertation committee also includes
-                Prof. <a href="https://scholar.harvard.edu/vijay-janapa-reddi/home">Vijay Reddi</a>
-                and Dr. <a href="https://ai.google/research/people/105499/">Cliff Young</a>.
                 I received my Bachelor of Science degree in Computer Science from Shanghai Jiao Tong University in 2013.
           </p>
 						</div>
@@ -62,12 +60,28 @@
 								<!-- Unordered List -->
 									<section>
 										<header>
-											<h4>Staff Software Engineer, Google</h4>
+											<h4>Staff Software Engineer, Google DeepMind</h4>
                       <h4>April 2023 -- Present</h4>
 										</header>
 										<div class="content">
 											<ul>
-                        <li>Optimizing the performance of large models.</li>
+                        <li>Leading the Multimodal Serving team in Google DeepMind.</li>
+                         <ul>
+                          <li>Designed and implementing a serving system to cater different multimodal
+model serving needs.</li>
+<li>Optimized three generations of Veo for serving, achieved up to <b>30% speedup
+for Veo 1</b>, over <b>5x for Veo 2 and Veo 3</b>.</li>
+                         </ul>
+                        <li>Optimized serving performance of Gemini-based products.</li>
+                         <ul>
+                          <li><b>3.4x speedup for Project Astra</b>, which was <a
+href=https://www.youtube.com/watch?v=nXVvvRhiGjI>launched in Google I/O 2024</a>.</li>
+                          <li>Up to <b>2.6x speedup for Search</b>, and 1.6x for a long context model for a Cloud product.</li>
+                          <li><b>Google Tech Impact Award 2024</b></li>
+                          <li><b>Google Editor's Choice Perfy Award 2024</b></li>
+                          <li><b>Google Gold Perfy Award 2024 x 2</b></li>
+                          <li>Google Silver Perfy Award 2024</li>
+                         </ul>
 											</ul>
 										</div>
 									</section>
@@ -79,7 +93,35 @@
 										</header>
 										<div class="content">
 											<ul>
-                        <li>Optimized the performance of large models.</li>
+                        <li>Optimized serving performance of Google's large language model products, led a virtual
+team of over 10 engineers.</i>
+                        <ul>
+                        <li>Achieved up to <b>2.5x speedup for Bard</b> (later renamed as Gemini),
+<b>1.7x for Search</b>, <b>1.3x for Cloud</b>.</li>
+                        <li>Applied optimizations across the stacks including compilers (e.g., fusion, lowering, scheduling), models (such as sharding
+optimization, rewriting computations to be more TPU-friendly), and compiler flag autotuning.</li>
+                        <li>Proposed a systematic and general performance analysis methodology,
+widely used for onboarding new performance engineers.</li>
+                        <li><b>Google Cloud Tech Impact Award 2023</b></li>
+                        <li><b>Google Editor's Choice Perfy Award 2023</b></li>
+                        <li>Three of Google Silver Perfy Award 2023</li>
+                        </ul>
+                        <li>Productionized the automatic model partitioning algorithm in Alpa
+(co-authored <a href=https://research.google/blog/alpa-automated-model-parallel-deep-learning/>blog
+post</a>), implemented optimizations to scale Google wide. Led the team to <a href=https://github.com/pytorch/xla/issues/6322>open source it in
+PyTorch XLA</a>.</li>
+                        <li>Conducted model partitioning autotuning, speeded up serving of an
+earlier version of Bard by 10%.
+                        <li>Designed <a
+href='https://patents.google.com/patent/WO2023234952A1/en?oq=WO2023234952A1'>the 2nd generation of
+the automatic system</a> to deploy <a href='https://mangpo.net/papers/xla-autotuning-pact2021.pdf'>
+multi-pass Machine Learning compiler autotuning</a> for fleetwide Google ML workloads, saved
+significant fleetwide TPU resources. </li>
+                      <ul>
+                       <li>After founding the project and the team, I handed off to a new TLM and moved on to
+other projects. This new system recently finished landing most optimizations to Google fleet and
+awarded <b>Google Gold Perfy Award 2025</b>.</li>
+                      </ul>
 											</ul>
 										</div>
 									</section>
@@ -91,7 +133,29 @@
 										</header>
 										<div class="content">
 											<ul>
-                        <li>Speeded up fleetwide ML workloads with an automatic optimization system.</li>
+                        <li> Designed and implemented <a
+href='https://patents.google.com/patent/US20240118875A1/en?oq=US20240118875A1'>an automatic system
+(US Patent)</a> to deploy <a href='https://mangpo.net/papers/xla-autotuning-pact2021.pdf'> multi-pass
+                             Machine Learning compiler autotuning</a> that optimizes fleetwide Google ML
+                             workloads.</li>
+                          <ul>
+                          <li> It saves significant fleetwide TPU resources.</li>
+                          <li> <b>Google Editor's Choice Perfy Award 2021.</b></li>
+                          <li> Google ML Product Excellence Award 2021. </li>
+                          <li> Special Efficiency Award 2021. </li>
+                          </ul>
+                          <li> Optimized MLPerf BERT training on 4k TPU v3 pod, set the world record
+of 23 seconds for BERT training (<a
+href=https://cloud.google.com/blog/products/ai-machine-learning/google-breaks-ai-performance-records-in-mlperf-with-worlds-fastest-training-supercomputer>blog
+post</a>). Authored <a
+href=https://proceedings.mlsys.org/paper_files/paper/2021/file/c0d16b623be8b439d9c075eb5a97efd1-Paper.pdf>the
+MLSys'21 paper</a> to summarize the optimizations and lessons.
+                        <ul>
+                        <li> Google Silver Perfy Award 2020 and 2021.
+                        </ul>
+                          <li> Designed and implemented <a
+href=https://patents.google.com/patent/US20240118920A1/en?oq=US20240118920A1>a workload scheduling
+queue in TPU runtime (US Patent)</a>.</li>
 											</ul>
 										</div>
 									</section>
@@ -104,7 +168,9 @@
 										<div class="content">
 											<ul>
 												<li>Conducted deep and systematic performance analysis for machine learning workloads and extracted architectural insights to optimize those workloads.</li>
-                        <li>(See my dissertation.)</li>
+                        <li>See <a
+href=https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cIt4my0AAAAJ&cstart=20&pagesize=80&citation_for_view=cIt4my0AAAAJ:lSLTfruPkqcC>my
+dissertation</a>.</li>
 											</ul>
 										</div>
 									</section>
@@ -136,7 +202,7 @@
                             state-of-the-art deep learning workloads.</li>
                         <li>Predicted potential bottlenecks of Cloud TPU v3.</li>
                         <li>Quantified the impact of NUMA-aware allocation for Cloud TPU v3.</li>
-                        <li>Shared Silver Perfy Award in 2019 Q1 at Google.</li>
+                        <li>Silver Perfy Award in 2019 Q1 at Google.</li>
 											</ul>
 										</div>
 									</section>
@@ -209,6 +275,73 @@
 						<div class="inner">
 							<h2>Publications</h2>
 								<p> 
+                <a href="https://arxiv.org/pdf/2507.06261" class="icon style1 fa-download"></a>
+Gemini Team. <I>"Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality,
+Long Context, and Next Generation Agentic Capabilities."</I> arXiv preprint arXiv:2507.06261 (2025).
+                </p>
+
+								<p> 
+                <a href="https://arxiv.org/abs/2408.00118" class="icon style1 fa-download"></a>
+Gemma Team. <I>"Gemma 2: Improving open language models at a practical size."</I> arXiv preprint arXiv:2408.00118 (2024).
+                </p>
+
+								<p> 
+                <a href="https://arxiv.org/abs/2403.05530" class="icon style1 fa-download"></a>
+Gemini Team. <I>"Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context."</I> arXiv preprint arXiv:2403.05530 (2024).
+                </p>
+
+								<p> 
+                <a href="https://arxiv.org/abs/2408.00118" class="icon style1 fa-download"></a>
+Gemma Team. <I>"Gemma 2: Improving open language models at a practical size."</I> arXiv preprint arXiv:2408.00118 (2024).
+                </p>
+
+								<p> 
+                <a href="https://arxiv.org/pdf/2312.11805" class="icon style1 fa-download"></a>
+Gemini Team. <I>"Gemini: A family of highly capable multimodal models, 2024."</I> arXiv preprint arXiv:2312.11805 10 (2024).
+                </p>
+
+								<p> 
+                <a href="https://arxiv.org/pdf/2310.03675" class="icon style1 fa-download"></a>
+Schiemer, Martin, Clemens JS Schaefer, Jayden Parker Vap, Mark James Horeni, <b>Yu Emma Wang</b>, Juan Ye,
+and Siddharth Joshi. <I>"Hadamard domain training with integers for class incremental quantized
+learning."</I> arXiv preprint arXiv:2310.03675 (2023).
+                </p>
+
+								<p> 
+                <a href="https://arxiv.org/pdf/2306.04879" class="icon style1 fa-download"></a>
+Clemens JS Schaefer, Navid Lambert-Shirzad, Xiaofan Zhang, Chiachen Chou, Tom Jablin, Jian Li,
+Elfie Guo, Caitlin Stanton, Siddharth Joshi, and <b>Yu Emma Wang</b>. <I>"Augmenting hessians with inter-layer
+dependencies for mixed-precision post-training quantization."</I> arXiv preprint arXiv:2306.04879 (2023).
+                </p>
+
+								<p> 
+                <a href="https://arxiv.org/pdf/2302.01382" class="icon style1 fa-download"></a>
+Clemens JS Schaefer, Elfie Guo, Caitlin Stanton, Xiaofan Zhang, Tom Jablin, Navid Lambert-Shirzad,
+Jian Li, Chiachen Chou, Siddharth Joshi, and <b>Yu Emma Wang</b>. <I>"Mixed precision post training
+quantization of neural networks with sensitivity guided search."</I> arXiv preprint arXiv:2302.01382 (2023).
+                </p>
+
+								<p> 
+                <a href="https://arxiv.org/pdf/2201.08539" class="icon style1 fa-download"></a>
+Zhang, Xiaofan, Zongwei Zhou, Deming Chen, and <b>Yu Emma Wang</b>. <I>"AutoDistill: An end-to-end framework
+to explore and distill hardware-efficient language models."</I> arXiv preprint arXiv:2201.08539 (2022).
+                </p>
+
+								<p> 
+                <a href="https://proceedings.mlr.press/v162/du22c.html" class="icon style1 fa-download"></a>
+Nan Du, Yanping Huang, Andrew M Dai, Simon Tong, Dmitry Lepikhin, Yuanzhong Xu, Maxim Krikun, Yanqi
+Zhou, Adams Wei Yu, Orhan Firat, Barret Zoph, Liam Fedus, Maarten P Bosma, Zongwei Zhou, Tao Wang,
+<b>Yu Emma Wang</b> et al. <I>"Glam: Efficient scaling of language models with mixture-of-experts."</I> In
+International conference on machine learning, pp. 5547-5569. PMLR, 2022.
+                </p>
+
+                <p>
+                <a href=https://mangpo.net/papers/xla-autotuning-pact2021.pdf class="icon style1 fa-download"></a>
+Phitchaya Mangpo Phothilimthana, Amit Sabne, Nikhil Sarda, Karthik Srinivasa Murthy, Yanqi Zhou,
+Christof Angermueller, Mike Burrows, Sudip Roy, Ketan Mandke, Rezsa Farahani, <b>Yu Emma Wang</b> et
+al. <I>"A flexible approach to autotuning multi-pass machine learning compilers."</I> In 2021 30th International Conference on Parallel Architectures and Compilation Techniques (PACT), pp. 1-16. IEEE, 2021.
+                </p>
+								<p> 
                 <a href="https://proceedings.mlsys.org/paper/2021/file/28dd2c7955ce926456240b2ff0100bde-Paper.pdf" class="icon style1 fa-download"></a>
                 Sameer Kumar, <b>Yu Emma Wang</b>, Cliff Young, James Bradbury, Anselm Levskaya, Blake Hechtman,
                 Dehao Chen, HyoukJoong Lee, Mehmet Deveci, Naveen Kumar, Pankaj Kanwar, Shibo Wang,
@@ -277,6 +410,26 @@
               <a href = publications/wang-thesis2019.pdf class="icon style1 fa-download"></a>
 							      Yu Emma Wang. "Performance Analysis for Machine Learning Applications." PhD
                     Dissertation, Harvard University, Nov 2019.
+                </p>
+					</section>
+
+					<section class="wrapper style1 align-left">
+						<div class="inner">
+							<h2>Patents</h2>
+                <p>
+              <a href =https://patents.google.com/patent/US20240118875A1/en?oq=US20240118875A1  class="icon style1 fa-download"></a>
+							     <b>Yu Emma Wang</b>, Dehao Chen, Phitchaya Mangpo Phothilimthana, "Deploying optimization
+profiles for compiling computer programs in data centers." 2023.
+                </p>
+                <p>
+              <a href =https://patents.google.com/patent/WO2023234952A1/en?oq=WO2023234952A1  class="icon style1 fa-download"></a>
+							     Hyojun Kim, Xiao Yu, <b>Yu Emma Wang</b>, Phitchaya Mangpo Phothilimthana,
+"Caching compilation outputs using optimization profiles." 2022.
+                </p>
+                <p>
+              <a href =https://patents.google.com/patent/US20240118920A1/en?oq=US20240118920A1  class="icon style1 fa-download"></a>
+							     <b>Yu Emma Wang</b>, Thomas Benjamin Jablin, Caitlin King Stanton, "Workload
+scheduling using queues with different priorities." 2022.
                 </p>
 					</section>
 				<!-- Six -->
